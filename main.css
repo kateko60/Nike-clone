@@ -1,0 +1,93 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(194, 190, 190);
+    font-family: sans-serif
+}
+.nav-menu{
+    background-color: rgb(92, 87, 87);
+    display: flex;
+    max-width: 100%;
+    align-items: center;
+    box-shadow: -10px 5px 10px rgb(124, 94, 94);
+}
+.nav-menu ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    align-items: center;
+    text-align: center;
+    padding: 15px 5px;
+    margin: auto;
+}
+.nav-menu li{
+    color: white;
+    padding: 10px 15px;
+    text-transform: capitalize;
+    align-items: center;
+    justify-content: center;
+
+}
+.nav-menu li:hover{
+    cursor: pointer;
+    font-size: 110%;
+    border-bottom: 2px solid grey;
+}
+.nav-menu .nikelogo{
+    width: 65px;
+}
+.nav-menu .cartlogo{
+    width: 20px;
+    margin-right: auto;
+    justify-content: end;
+    color: white;
+    
+}
+.nav-menu .loginlogo{
+    width: 18px;
+    margin-right: auto;
+    justify-content: end;
+    color: white;
+    
+}
+.nav-menu li:nth-child(5){
+    align-items: center;
+    margin-left: 100%;
+}
+/*--------------*/
+/*Products sections*/
+.sneakers-sec1, .sneakers-sec2{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    overflow: hidden;
+}
+.sneaker{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    background-color: rgb(151, 135, 135);
+    border-radius: 10px;
+    margin: 40px 15px;
+    padding: 0px 0px;
+    align-items: center;
+    overflow: hidden;
+}
+.sneaker img{
+    width: 400px;
+    border-radius: 10px 10px 0px 0px;
+}
+.sneaker h3 {
+    margin-right: auto;
+    padding-left: 5px;
+    opacity: 0.6;
+}
+.sneaker p{
+    margin-right: auto;
+    padding-left: 5px;
+    opacity: 0.6;
+}
+.sneaker:hover{
+    transform: scale(1.1);
+}
